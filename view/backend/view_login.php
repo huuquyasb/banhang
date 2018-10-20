@@ -30,6 +30,18 @@
 								<div class="col-md-9"><input type="password" name="c_password" required class="form-control"></div>
 							</div>
 						</div>
+						<?php 
+						 if($msg !=''){
+						?>
+						<div class="form-group">
+							<div class="row">
+								<div class="col-md-3" ></div>
+								<div class="col-md-9" style="color:red;"><?php echo $msg;?></div>
+							</div>
+						</div>
+						<?php
+						 }
+						?>
 						<!-- end form group -->
 						<!-- form group -->
 						<div class="form-group">

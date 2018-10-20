@@ -105,75 +105,15 @@
             <!-- #primary -->
 
             <aside id="secondary-1" class="sidebar widget-area">
-                <div id="nav_menu-3" class="widget widget_nav_menu">
-                    <h3 class="widget-title">Danh mục sản phẩm</h3>
-                    <div class="menu-danh-muc-san-pham-container">
-                        <ul id="menu-danh-muc-san-pham" class="menu">
-                            <li id="menu-item-342" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-342"><a href="index9864.html?product_cat=hang-moi-ve">Hàng mới về</a></li>
-                            <li id="menu-item-215" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-215"><a href="index6785.html?product_cat=san-pham">Sản phẩm</a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-348" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-348"><a href="index577c.html?product_cat=san-pham-ban-chay">Sản phẩm bán chạy</a></li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-343" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-343"><a href="index1619.html?product_cat=noi-that-noi-bat">Nội thất nổi bật</a></li>
-                            <li id="menu-item-344" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-344"><a href="index577c.html?product_cat=san-pham-ban-chay">Sản phẩm bán chạy</a></li>
-                            <li id="menu-item-345" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-345"><a href="index40a4.html?product_cat=san-pham-noi-bat">Sản phẩm nổi bật</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="prdctfltr-2" class="widget prdctfltr-widget">
-
-                    <div class="prdctfltr_wc prdctfltr_woocommerce woocommerce prdctfltr_wc_widget pf_default prdctfltr_always_visible prdctfltr_click_filter prdctfltr_rows prdctfltr_scroll_default prdctfltr_disable_bar pf_mod_multirow prdctfltr_checkbox prdctfltr_hierarchy_circle prdctfltr_tabbed_selection prdctfltr_selected_reorder pf_remove_clearall" data-loader="css-spinner-full-01" data-id="prdctfltr-5b7d455f82b54">
-
-                        <div class="prdctfltr_add_inputs">
-                            <input type="hidden" name="page_id" value="15" /> </div>
-
-
-                    </div>
-
-                </div>
-                <div id="support_online-2" class="widget support-online-widget">
-                    <h3 class="widget-title">Hỗ trợ trực tuyến</h3>
-                    <div id="supporter-info" class="gd_support_1">
-                        <div id="support-1" class="supporter">
-                            <div class="info">
-                                <div class='img_suport'><img src='/public/assets/wp-content/uploads/2018/06/2a.jpg'></div>
-                                <div class="support-rt"><span class="name-support">Hà Quỳnh</span><span class="phone-support phone-support_2 phone_support_3"><a href= tel:0905.356.356 >0905.356.356</a></span></div>
-                            </div>
-                        </div>
-                        <!-- end supporter -->
-                        <div id="support-2" class="supporter">
-                            <div class="info">
-                                <div class='img_suport'><img src='/public/assets/wp-content/uploads/2018/06/1a.jpg'></div>
-                                <div class="support-rt"><span class="name-support">Mai Hoa</span><span class="phone-support phone-support_2 phone_support_3"><a href= tel:0905.356.356 >0905.356.356</a></span></div>
-                            </div>
-                        </div>
-                        <!-- end supporter -->
-                        <div id="support-3" class="supporter">
-                            <div class="info">
-                                <div class='img_suport'><img src='/public/assets/wp-content/uploads/2018/06/1a.jpg'></div>
-                                <div class="support-rt"><span class="name-support">Hà Quỳnh</span><span class="phone-support phone-support_2 phone_support_3"><a href= tel:0905.356.356 >0905.356.356</a></span></div>
-                            </div>
-                        </div>
-                        <!-- end supporter -->
-                        <div id="support-4" class="supporter">
-                            <div class="info">
-                                <div class='img_suport'><img src='/public/assets/wp-content/uploads/2018/06/2a.jpg'></div>
-                                <div class="support-rt"><span class="name-support">Mai Hoa</span><span class="phone-support phone-support_2 phone_support_3"><a href= tel:0905.356.356 >0905.356.356</a></span></div>
-                            </div>
-                        </div>
-                        <!-- end supporter -->
-                        <div id="support-5" class="supporter">
-                            <div class="info">
-                                <div class='img_suport'><img src='/public/assets/wp-content/uploads/2018/06/1a.jpg'></div>
-                                <div class="support-rt"><span class="name-support">Hà Quỳnh</span><span class="phone-support phone-support_2 phone_support_3"><a href= tel:0905.356.356 >0905.356.356</a></span></div>
-                            </div>
-                        </div>
-                        <!-- end supporter -->
-                    </div>
-                    <!-- end supporter-info -->
-                </div>
-               
+                <!-- categories -->
+                <?php include "controller/frontend/controller_categories.php"; ?>
+                <!-- !categories -->
+                <!-- support -->
+                <?php include "controller/frontend/controller_support.php"; ?>
+                <!-- !support -->
+                <!-- new posts -->
+               <?php include "controller/frontend/controller_new_post.php"; ?>
+                <!-- !new posts -->
             </aside>
 
         </div>

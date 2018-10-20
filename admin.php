@@ -6,7 +6,7 @@
 	//load model.php
 	include "model/model.php";
 	//kiem tra neu user chua dang nhap thi yeu cau phai dang nhap (load MVC login), neu user da dang nhap thi hien thi view_layout.php
-	if(isset($_SESSION["c_email"]) == false)
+	if(isset($_SESSION["is_admin"]) == false)
 		include "controller/backend/controller_login.php";
 	else{
 		//------------

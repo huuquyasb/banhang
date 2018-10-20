@@ -89,6 +89,20 @@
                                                     </li>
                                                    
                                                     <li id="menu-item-19" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-19 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="index.php?controller=contact" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Liên hệ</span></a></li>
+                                                <?php 
+                                                    if(isset($_SESSION["login_user"])){
+                                                ?>
+                                                 <li id="menu-item-19" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-19 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="index.php?controller=logout" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Đăng xuất</span></a></li>
+
+                                                <?php
+                                                    }else{
+                                                ?>
+                                                 <li id="menu-item-19" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-19 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="index.php?controller=login" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Đăng nhập</span></a></li>
+                                                    <li id="menu-item-19" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-19 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="index.php?controller=signup" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Đăng Ký</span></a></li>
+                                                <?php
+                                                    }
+                                                ?>
+                                                  
                                                 </ul>
                                             </nav>
                                             <!-- End UberMenu -->
