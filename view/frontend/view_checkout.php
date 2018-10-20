@@ -51,6 +51,13 @@
                                                     }
                                                     ?>
                                                 </div>
+                                                <div class="wpcf7-response-output " style="color:red;">
+                                                    <?php 
+                                                    if(isset($err) && $err !=''){
+                                                        echo $err;
+                                                    }
+                                                    ?>
+                                                </div>
                                                 <p>
                                                     <input type="submit" value="Gửi" class="wpcf7-form-control wpcf7-submit" />
                                                 </p>

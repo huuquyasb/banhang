@@ -28,6 +28,9 @@
             <a class="nav-link" href="admin.php?controller=category_news">Danh mục tin tức</a>
           </li>
           <li class="nav-item active">
+            <a class="nav-link" href="admin.php?controller=order">Danh mục đơn hàng</a>
+          </li>
+          <li class="nav-item active">
             <a class="nav-link" href="admin.php?controller=news">Tin tức</a>
           </li>
           <li class="nav-item active">
